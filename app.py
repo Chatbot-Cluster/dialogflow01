@@ -3,7 +3,7 @@ import uuid,os
 import requests
 import json
 import dialogflow_v2 as dialogflow
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "E:/k/dialogflow/Agent1-61d9da898e91.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "./Agent1-61d9da898e91.json"
 
 app = Flask(__name__)
 # default route
