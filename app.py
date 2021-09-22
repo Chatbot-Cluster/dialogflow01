@@ -30,7 +30,7 @@ def detect_intent_texts(project_id, session_id, text, language_code):
 def send_message():
     print("inside the print")
     message = request.form['message']
-    project_id = str('agent1-9d354')
+    project_id = str('chatbotdemoexperience--wvea')
     fulfillment_text = detect_intent_texts(project_id, "unique", message, 'en')
     response_text = { "message":  fulfillment_text }
     print("response_text",response_text)
